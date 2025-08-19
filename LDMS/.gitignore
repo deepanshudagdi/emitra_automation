@@ -1,0 +1,26 @@
+# Google Sheets Credentials - NEVER upload these!
+google_sheets_credentials.json
+*credentials*.json
+
+# Environment files
+.env
+config.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

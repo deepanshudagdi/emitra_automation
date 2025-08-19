@@ -1,0 +1,1294 @@
+2025-08-08 14:57:58,280 - INFO - Initializing session...
+2025-08-08 14:58:04,182 - ERROR - Error initializing session: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-08-08 14:58:10,887 - INFO - Initializing session...
+2025-08-08 14:58:16,648 - INFO - Session initialized successfully. CSRF token: rpGCuSv7uPmz-BnaCCkP...
+2025-08-08 14:59:48,921 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 14:59:48,928 - INFO - Google Sheets service initialized
+2025-08-08 14:59:48,928 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:00:00,205 - INFO - Read 1 Aadhaar numbers from Sheet1
+2025-08-08 15:00:00,206 - INFO - Found 1 Aadhaar numbers to process
+2025-08-08 15:00:00,206 - INFO - Processing batch 1: 1 Aadhaar numbers
+2025-08-08 15:00:00,206 - INFO - Processing Aadhaar: 293415860042
+2025-08-08 15:00:00,207 - INFO - Initializing session...
+2025-08-08 15:00:05,576 - INFO - Session initialized successfully. CSRF token: etoXg0UvOI1a1pZbfIEx...
+2025-08-08 15:00:05,576 - INFO - Attempting to fetch data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:00:10,301 - ERROR - Error parsing response for 293415860042: string indices must be integers, not 'str'
+2025-08-08 15:00:10,301 - INFO - Successfully fetched data for Aadhaar: 293415860042
+2025-08-08 15:00:15,821 - ERROR - Error writing to Google Sheets: <HttpError 400 when requesting https://sheets.googleapis.com/v4/spreadsheets/1y1fnk7dGjZAg3gasp7njQHWSwAeGE-0NXNFZCrdtK_E/values/Results%21A%3AR:clear?alt=json returned "Unable to parse range: Results!A:R". Details: "Unable to parse range: Results!A:R">
+2025-08-08 15:00:15,822 - INFO - Batch 1 completed and saved
+2025-08-08 15:00:15,822 - INFO - Automation completed. Successful: 1, Failed: 0
+2025-08-08 15:04:28,457 - INFO - Initializing session...
+2025-08-08 15:04:28,466 - DEBUG - Starting new HTTPS connection (1): jansoochna.rajasthan.gov.in:443
+2025-08-08 15:04:34,298 - DEBUG - https://jansoochna.rajasthan.gov.in:443 "GET /Services/DynamicControlsDataSet HTTP/1.1" 200 15430
+2025-08-08 15:04:34,378 - INFO - Session initialized successfully. CSRF token: axI0djUfZAzOT0J-H1st...
+2025-08-08 15:04:34,378 - INFO - Attempting to fetch data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:04:38,754 - DEBUG - https://jansoochna.rajasthan.gov.in:443 "POST /Services/DynamicControlsDataSet HTTP/1.1" 200 2741
+2025-08-08 15:04:38,834 - DEBUG - Parsing response type: <class 'str'>
+2025-08-08 15:04:38,834 - DEBUG - Response keys: ['Labour', 'TransactionSummary_0']
+2025-08-08 15:04:38,835 - INFO - Parsed Labour data for Afasana Bano
+2025-08-08 15:04:38,835 - INFO - Parsed Transaction data for Afasana Bano
+2025-08-08 15:04:38,835 - INFO - Successfully parsed data for Afasana Bano
+2025-08-08 15:04:38,835 - INFO - Successfully fetched data for Aadhaar: 293415860042
+2025-08-08 15:04:53,581 - INFO - Initializing session...
+2025-08-08 15:04:53,587 - DEBUG - Starting new HTTPS connection (1): jansoochna.rajasthan.gov.in:443
+2025-08-08 15:04:55,345 - DEBUG - https://jansoochna.rajasthan.gov.in:443 "GET /Services/DynamicControlsDataSet HTTP/1.1" 200 15436
+2025-08-08 15:04:55,349 - INFO - Session initialized successfully. CSRF token: Q9zgzf1pF_jM-jhBo9dP...
+2025-08-08 15:04:55,350 - INFO - Attempting to fetch data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:04:58,303 - DEBUG - https://jansoochna.rajasthan.gov.in:443 "POST /Services/DynamicControlsDataSet HTTP/1.1" 200 2741
+2025-08-08 15:04:58,312 - DEBUG - Parsing response type: <class 'str'>
+2025-08-08 15:04:58,312 - DEBUG - Response keys: ['Labour', 'TransactionSummary_0']
+2025-08-08 15:04:58,312 - INFO - Parsed Labour data for Afasana Bano
+2025-08-08 15:04:58,313 - INFO - Parsed Transaction data for Afasana Bano
+2025-08-08 15:04:58,313 - INFO - Successfully parsed data for Afasana Bano
+2025-08-08 15:04:58,313 - INFO - Successfully fetched data for Aadhaar: 293415860042
+2025-08-08 15:05:12,412 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:05:12,418 - INFO - Google Sheets service initialized
+2025-08-08 15:05:12,419 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:05:24,057 - INFO - Read 1 Aadhaar numbers from Sheet1
+2025-08-08 15:05:24,057 - INFO - Found 1 Aadhaar numbers to process
+2025-08-08 15:05:24,058 - INFO - Processing batch 1: 1 Aadhaar numbers
+2025-08-08 15:05:24,058 - INFO - Processing Aadhaar: 293415860042
+2025-08-08 15:05:24,058 - INFO - Initializing session...
+2025-08-08 15:05:34,327 - INFO - Session initialized successfully. CSRF token: CfV01i1kjC0xI0dkB1YE...
+2025-08-08 15:05:34,328 - INFO - Attempting to fetch data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:05:40,678 - ERROR - Error parsing response for 293415860042: string indices must be integers, not 'str'
+2025-08-08 15:05:40,678 - INFO - Successfully fetched data for Aadhaar: 293415860042
+2025-08-08 15:05:46,945 - INFO - Successfully wrote 1 records to Results
+2025-08-08 15:05:46,946 - INFO - Batch 1 completed and saved
+2025-08-08 15:05:46,946 - INFO - Automation completed. Successful: 1, Failed: 0
+2025-08-08 15:06:23,349 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:06:23,355 - INFO - Google Sheets service initialized
+2025-08-08 15:06:23,356 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:06:33,239 - INFO - Read 0 Aadhaar numbers from Sheet1
+2025-08-08 15:06:33,240 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-08 15:07:21,460 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:07:21,466 - INFO - Google Sheets service initialized
+2025-08-08 15:07:21,467 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:07:26,578 - INFO - Read 1 Aadhaar numbers from Sheet1
+2025-08-08 15:07:26,579 - INFO - Found 1 Aadhaar numbers to process
+2025-08-08 15:07:26,579 - INFO - Processing batch 1: 1 Aadhaar numbers
+2025-08-08 15:07:26,580 - INFO - Processing Aadhaar: 293415860042
+2025-08-08 15:07:26,580 - INFO - Initializing session...
+2025-08-08 15:07:28,784 - INFO - Session initialized successfully. CSRF token: PKSr8KZqIfBhFbZMYpAz...
+2025-08-08 15:07:28,784 - INFO - Attempting to fetch data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:07:29,596 - ERROR - Error parsing response for 293415860042: string indices must be integers, not 'str'
+2025-08-08 15:07:29,596 - INFO - Successfully fetched data for Aadhaar: 293415860042
+2025-08-08 15:07:35,738 - INFO - Successfully wrote 1 records to Results
+2025-08-08 15:07:35,739 - INFO - Batch 1 completed and saved
+2025-08-08 15:07:35,739 - INFO - Automation completed. Successful: 1, Failed: 0
+2025-08-08 15:09:15,825 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:09:15,831 - INFO - Google Sheets service initialized
+2025-08-08 15:09:15,831 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:09:19,637 - INFO - Read 1 Aadhaar numbers from Sheet1
+2025-08-08 15:09:19,637 - INFO - Found 1 Aadhaar numbers to process
+2025-08-08 15:09:19,638 - INFO - Processing batch 1: 1 Aadhaar numbers
+2025-08-08 15:09:19,638 - INFO - Processing Aadhaar: 293415860042
+2025-08-08 15:09:19,638 - INFO - Initializing session...
+2025-08-08 15:09:24,292 - INFO - Session initialized successfully. CSRF token: AHQDJ5hTkjZMBiNXW3E8...
+2025-08-08 15:09:24,302 - INFO - Attempting to fetch data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:09:28,256 - ERROR - Error parsing response for 293415860042: string indices must be integers, not 'str'
+2025-08-08 15:09:28,256 - INFO - Successfully fetched data for Aadhaar: 293415860042
+2025-08-08 15:09:34,360 - INFO - Successfully wrote 1 records to Results
+2025-08-08 15:09:34,360 - INFO - Batch 1 completed and saved
+2025-08-08 15:09:34,361 - INFO - Automation completed. Successful: 1, Failed: 0
+2025-08-08 15:16:50,521 - INFO - Initializing session...
+2025-08-08 15:16:58,766 - INFO - Session initialized successfully. CSRF token: 3WKWkj2zeWz3uV2tCpy0...
+2025-08-08 15:16:58,767 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:16:59,748 - ERROR - Error parsing response for 293415860042: string indices must be integers, not 'str'
+2025-08-08 15:16:59,748 - INFO - Successfully fetched data for  (Aadhaar: 293415860042)
+2025-08-08 15:17:07,732 - INFO - Initializing session...
+2025-08-08 15:17:12,613 - INFO - Session initialized successfully. CSRF token: j04e7Sdbo7Wu1pHB6gEO...
+2025-08-08 15:17:12,613 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:17:15,424 - ERROR - Error parsing response for 293415860042: string indices must be integers, not 'str'
+2025-08-08 15:17:15,424 - INFO - Successfully fetched data for  (Aadhaar: 293415860042)
+2025-08-08 15:24:11,865 - INFO - Initializing session...
+2025-08-08 15:24:17,837 - INFO - Session initialized successfully. CSRF token: 9zFWlxeX9BusBJhK5YU2...
+2025-08-08 15:24:17,837 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:24:22,845 - WARNING - No data found for Aadhaar: 293415860042
+2025-08-08 15:24:22,847 - INFO - Initializing session...
+2025-08-08 15:24:24,486 - INFO - Session initialized successfully. CSRF token: KZ0VEF7u38pFAX5hvLrj...
+2025-08-08 15:24:24,487 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 2)
+2025-08-08 15:24:25,712 - WARNING - No data found for Aadhaar: 293415860042
+2025-08-08 15:24:25,713 - INFO - Initializing session...
+2025-08-08 15:24:26,124 - INFO - Session initialized successfully. CSRF token: hl7vyF-V2ZEZZ4Tvl5HG...
+2025-08-08 15:24:26,124 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 3)
+2025-08-08 15:24:28,781 - WARNING - No data found for Aadhaar: 293415860042
+2025-08-08 15:25:48,746 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:25:48,753 - INFO - Google Sheets service initialized
+2025-08-08 15:25:48,754 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:25:59,382 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-08 15:25:59,382 - INFO - Found 1 Aadhaar numbers to process
+2025-08-08 15:25:59,382 - INFO - Processing batch 1: 1 Aadhaar numbers
+2025-08-08 15:25:59,382 - INFO - Processing Aadhaar: 293415860042
+2025-08-08 15:25:59,383 - INFO - Initializing session...
+2025-08-08 15:26:00,471 - INFO - Session initialized successfully. CSRF token: Is3dzXc4m7Vep53uhVzR...
+2025-08-08 15:26:00,471 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:26:01,673 - WARNING - No data found for Aadhaar: 293415860042
+2025-08-08 15:26:01,673 - INFO - Initializing session...
+2025-08-08 15:26:01,951 - INFO - Session initialized successfully. CSRF token: Rs0cw509uMN_apnsH2t_...
+2025-08-08 15:26:01,952 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 2)
+2025-08-08 15:26:03,065 - WARNING - No data found for Aadhaar: 293415860042
+2025-08-08 15:26:03,065 - INFO - Initializing session...
+2025-08-08 15:26:04,622 - INFO - Session initialized successfully. CSRF token: DWNvYM-uQbSAdGwvk3Dk...
+2025-08-08 15:26:04,623 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 3)
+2025-08-08 15:26:05,758 - WARNING - No data found for Aadhaar: 293415860042
+2025-08-08 15:26:11,306 - INFO - Sheet Results already exists
+2025-08-08 15:26:22,302 - INFO - Successfully wrote 1 records to Results
+2025-08-08 15:26:22,302 - INFO - Batch 1 completed and saved
+2025-08-08 15:26:22,303 - INFO - Automation completed. Successful: 0, Failed: 1
+2025-08-08 15:32:13,923 - INFO - Initializing session...
+2025-08-08 15:32:22,957 - INFO - Session initialized successfully
+2025-08-08 15:32:22,958 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:34:34,430 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:34:34,439 - INFO - Google Sheets service initialized
+2025-08-08 15:34:38,760 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-08 15:34:56,868 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:34:56,879 - INFO - Google Sheets service initialized
+2025-08-08 15:34:56,879 - INFO - Starting Jan Soochna Portal automation
+2025-08-08 15:35:05,839 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-08 15:35:05,840 - INFO - Found 1 Aadhaar numbers to process
+2025-08-08 15:35:05,840 - INFO - Processing batch 1: 1 Aadhaar numbers
+2025-08-08 15:35:05,840 - INFO - Processing Aadhaar: 293415860042
+2025-08-08 15:35:05,841 - INFO - Initializing session...
+2025-08-08 15:35:11,893 - INFO - Session initialized successfully
+2025-08-08 15:35:11,894 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:35:16,597 - INFO - Sheet Results already exists
+2025-08-08 15:35:17,245 - INFO - Successfully wrote 1 records to Results
+2025-08-08 15:35:17,252 - INFO - Batch 1 completed and saved
+2025-08-08 15:35:17,253 - INFO - Automation completed. Successful: 1, Failed: 0
+2025-08-08 15:48:31,321 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:48:31,327 - INFO - Google Sheets service initialized
+2025-08-08 15:48:35,547 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:48:35,548 - INFO - Initializing session...
+2025-08-08 15:48:36,054 - INFO - Session initialized successfully
+2025-08-08 15:50:04,675 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:50:04,681 - INFO - Google Sheets service initialized
+2025-08-08 15:51:30,849 - INFO - ============================================================
+2025-08-08 15:51:33,897 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:52:04,845 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:52:36,037 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:53:07,039 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:53:38,071 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:54:09,327 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:54:40,342 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:55:11,637 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:55:41,006 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:55:41,012 - INFO - Google Sheets service initialized
+2025-08-08 15:55:47,976 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:56:46,700 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:56:46,709 - INFO - Google Sheets service initialized
+2025-08-08 15:56:50,620 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:56:51,156 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-08 15:56:51,778 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:56:52,594 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-08 15:56:52,603 - INFO - Initializing session...
+2025-08-08 15:56:54,189 - INFO - Session initialized successfully
+2025-08-08 15:56:54,189 - INFO - Fetching data for Aadhaar: 971161873159 (attempt 1)
+2025-08-08 15:56:59,230 - INFO - Sheet Results already exists
+2025-08-08 15:56:59,786 - INFO - Successfully wrote 1 records to Results
+2025-08-08 15:57:20,604 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 15:57:20,610 - INFO - Google Sheets service initialized
+2025-08-08 15:57:24,393 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:57:24,960 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-08 15:57:25,654 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-08 15:57:26,218 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-08 15:57:26,223 - INFO - Initializing session...
+2025-08-08 15:57:30,247 - INFO - Session initialized successfully
+2025-08-08 15:57:30,249 - INFO - Fetching data for Aadhaar: 293415860042 (attempt 1)
+2025-08-08 15:57:35,242 - INFO - Sheet Results already exists
+2025-08-08 15:57:35,812 - INFO - Successfully wrote 1 records to Results
+2025-08-08 17:31:13,346 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-08 17:31:13,361 - INFO - Google Sheets service initialized
+2025-08-08 17:31:20,156 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-08 17:31:20,779 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-08 17:31:21,474 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-08 17:31:22,044 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-08 17:31:22,048 - INFO - Initializing session...
+2025-08-08 17:31:26,454 - INFO - Session initialized successfully
+2025-08-08 17:31:26,454 - INFO - Fetching data for Aadhaar: 870840813528 (attempt 1)
+2025-08-08 17:31:31,540 - INFO - Sheet Results already exists
+2025-08-08 17:31:32,146 - INFO - Successfully wrote 1 records to Results
+2025-08-10 17:43:15,042 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:43:15,077 - INFO - Google Sheets service initialized
+2025-08-10 17:43:18,333 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 17:43:18,865 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-10 17:43:19,506 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 17:43:20,060 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-10 17:43:20,067 - INFO - Initializing session...
+2025-08-10 17:43:20,573 - INFO - Session initialized successfully.
+2025-08-10 17:43:25,916 - INFO - Appended 1 records to Results
+2025-08-10 17:43:58,336 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:43:58,343 - INFO - Google Sheets service initialized
+2025-08-10 17:44:01,392 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 17:46:21,313 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:46:21,322 - INFO - Google Sheets service initialized
+2025-08-10 17:46:24,557 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 17:46:25,079 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-10 17:46:25,597 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 17:46:26,103 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-10 17:46:26,113 - INFO - Initializing session...
+2025-08-10 17:46:26,479 - INFO - Session initialized successfully.
+2025-08-10 17:46:31,493 - INFO - Appended 1 records to Results
+2025-08-10 17:50:37,283 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:50:37,290 - INFO - Google Sheets service initialized
+2025-08-10 17:50:40,625 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 17:52:45,492 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:52:45,499 - INFO - Google Sheets service initialized
+2025-08-10 17:52:45,499 - INFO - Starting Results sheet synchronization...
+2025-08-10 17:52:49,855 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 17:52:50,934 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1.
+2025-08-10 17:52:50,934 - INFO - Results sheet successfully synchronized with Sheet1.
+2025-08-10 17:53:25,424 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:53:25,433 - INFO - Google Sheets service initialized
+2025-08-10 17:53:28,314 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 17:56:29,734 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:56:29,742 - INFO - Google Sheets service initialized
+2025-08-10 17:56:33,165 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 17:57:02,741 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:57:02,750 - INFO - Google Sheets service initialized
+2025-08-10 17:57:02,751 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 17:57:05,604 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 17:57:05,604 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 17:57:27,630 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:57:27,641 - INFO - Google Sheets service initialized
+2025-08-10 17:57:27,642 - INFO - Starting Results sheet synchronization...
+2025-08-10 17:57:30,760 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 17:57:34,567 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 17:57:34,568 - INFO - Results sheet successfully synchronized with Sheet1.
+2025-08-10 17:58:03,429 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 17:58:03,439 - INFO - Google Sheets service initialized
+2025-08-10 17:58:03,440 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 17:58:06,611 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 17:58:06,611 - INFO - Found 3 Aadhaar numbers to process
+2025-08-10 17:58:06,612 - INFO - Processing Aadhaar 1/3: 870840813528
+2025-08-10 17:58:06,612 - INFO - Initializing session...
+2025-08-10 17:58:06,953 - INFO - Session initialized successfully.
+2025-08-10 17:58:08,774 - INFO - Appended 1 records to Results
+2025-08-10 17:58:10,775 - INFO - Processing Aadhaar 2/3: 293415860042
+2025-08-10 17:58:12,351 - INFO - Appended 1 records to Results
+2025-08-10 17:58:14,352 - INFO - Processing Aadhaar 3/3: 936832698361
+2025-08-10 17:58:15,816 - INFO - Appended 1 records to Results
+2025-08-10 17:58:17,817 - INFO - Automation completed.
+2025-08-10 17:58:18,697 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 17:58:20,561 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:01:27,116 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:01:27,122 - INFO - Google Sheets service initialized
+2025-08-10 18:01:27,128 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:01:27,134 - INFO - Google Sheets service initialized
+2025-08-10 18:01:27,143 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:01:31,285 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:01:31,285 - INFO - Found 3 Aadhaar numbers to process
+2025-08-10 18:01:31,285 - INFO - Processing Aadhaar 1/3: 870840813528
+2025-08-10 18:01:31,286 - INFO - Initializing session...
+2025-08-10 18:01:31,684 - INFO - Session initialized successfully.
+2025-08-10 18:01:33,290 - INFO - Appended 1 records to Results
+2025-08-10 18:01:35,292 - INFO - Processing Aadhaar 2/3: 293415860042
+2025-08-10 18:01:37,035 - INFO - Appended 1 records to Results
+2025-08-10 18:01:39,036 - INFO - Processing Aadhaar 3/3: 936832698361
+2025-08-10 18:01:40,404 - INFO - Appended 1 records to Results
+2025-08-10 18:01:42,405 - INFO - Automation completed.
+2025-08-10 18:01:42,916 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:01:44,566 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:01:47,985 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:01:49,678 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:02:49,687 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:02:50,255 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:02:50,256 - INFO - Found 3 Aadhaar numbers to process
+2025-08-10 18:02:50,256 - INFO - Processing Aadhaar 1/3: 870840813528
+2025-08-10 18:02:51,863 - INFO - Appended 1 records to Results
+2025-08-10 18:02:53,865 - INFO - Processing Aadhaar 2/3: 293415860042
+2025-08-10 18:02:55,452 - INFO - Appended 1 records to Results
+2025-08-10 18:02:57,453 - INFO - Processing Aadhaar 3/3: 936832698361
+2025-08-10 18:02:59,634 - INFO - Appended 1 records to Results
+2025-08-10 18:03:01,635 - INFO - Automation completed.
+2025-08-10 18:03:02,151 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:03:03,742 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:03:04,286 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:03:05,973 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:04:05,981 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:04:06,579 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:04:06,580 - INFO - Found 3 Aadhaar numbers to process
+2025-08-10 18:04:06,580 - INFO - Processing Aadhaar 1/3: 870840813528
+2025-08-10 18:04:08,228 - INFO - Appended 1 records to Results
+2025-08-10 18:04:10,231 - INFO - Processing Aadhaar 2/3: 293415860042
+2025-08-10 18:04:11,806 - INFO - Appended 1 records to Results
+2025-08-10 18:04:13,807 - INFO - Processing Aadhaar 3/3: 936832698361
+2025-08-10 18:04:15,142 - INFO - Appended 1 records to Results
+2025-08-10 18:04:17,144 - INFO - Automation completed.
+2025-08-10 18:04:17,665 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:04:19,352 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:04:19,921 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:04:21,585 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:09:33,964 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:09:33,971 - INFO - Google Sheets service initialized
+2025-08-10 18:09:33,980 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:09:37,341 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:09:37,882 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:09:37,882 - INFO - Automation completed.
+2025-08-10 18:09:38,402 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:09:40,269 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:10:40,278 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:10:40,843 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:10:41,407 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:10:41,407 - INFO - Automation completed.
+2025-08-10 18:10:41,930 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:10:43,615 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:11:43,624 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:11:44,128 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:11:44,128 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 18:12:44,138 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:12:44,655 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:12:44,656 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 18:13:47,741 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:13:47,751 - INFO - Google Sheets service initialized
+2025-08-10 18:13:47,767 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:13:51,140 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:13:51,141 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 18:14:51,152 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:14:51,738 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:14:51,738 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 18:15:51,746 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:15:52,299 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:15:52,299 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 18:16:38,942 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:16:38,949 - INFO - Google Sheets service initialized
+2025-08-10 18:16:38,950 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:16:42,013 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:16:42,014 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 18:16:42,537 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 18:16:44,325 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:17:44,326 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:17:44,866 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:17:45,382 - INFO - Found 3 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:17:45,383 - INFO - Processing Aadhaar 1/3: 870840813528
+2025-08-10 18:17:45,383 - INFO - Initializing session...
+2025-08-10 18:17:45,778 - INFO - Session initialized successfully.
+2025-08-10 18:17:47,430 - INFO - Appended 1 records to Results
+2025-08-10 18:17:49,432 - INFO - Processing Aadhaar 2/3: 293415860042
+2025-08-10 18:17:50,952 - INFO - Appended 1 records to Results
+2025-08-10 18:17:52,954 - INFO - Processing Aadhaar 3/3: 936832698361
+2025-08-10 18:17:54,485 - INFO - Appended 1 records to Results
+2025-08-10 18:17:56,486 - INFO - Automation completed.
+2025-08-10 18:17:57,214 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:17:58,859 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:18:58,861 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:18:59,406 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:18:59,926 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:18:59,927 - INFO - Automation completed.
+2025-08-10 18:19:00,434 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:19:02,074 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:20:02,076 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:20:02,625 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:20:03,193 - INFO - Found 1 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:20:03,193 - INFO - Processing Aadhaar 1/1: 936832698361
+2025-08-10 18:20:04,906 - INFO - Appended 1 records to Results
+2025-08-10 18:20:06,908 - INFO - Automation completed.
+2025-08-10 18:20:07,441 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:20:09,127 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:21:09,129 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:21:09,713 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:21:10,270 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:21:10,272 - INFO - Automation completed.
+2025-08-10 18:21:10,823 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:21:12,636 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:22:12,637 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:22:13,188 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:22:13,683 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:22:13,684 - INFO - Automation completed.
+2025-08-10 18:22:14,208 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:22:15,913 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:23:15,914 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:23:16,672 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:23:17,213 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:23:17,214 - INFO - Automation completed.
+2025-08-10 18:23:17,733 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:23:19,372 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:24:19,373 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:24:19,919 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:24:20,483 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:24:20,484 - INFO - Automation completed.
+2025-08-10 18:24:21,004 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:24:22,659 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:25:22,661 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:25:23,418 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:25:23,974 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:25:23,974 - INFO - Automation completed.
+2025-08-10 18:25:24,494 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:25:26,176 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:26:26,177 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:26:26,730 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:26:27,244 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:26:27,244 - INFO - Automation completed.
+2025-08-10 18:26:27,792 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:26:29,416 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:27:29,417 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:27:30,129 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:27:30,645 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:27:30,654 - INFO - Automation completed.
+2025-08-10 18:27:31,190 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:27:32,823 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:32:01,986 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:32:02,000 - INFO - Google Sheets service initialized
+2025-08-10 18:32:02,000 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:32:04,850 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:32:05,354 - INFO - Found 1 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:32:05,354 - INFO - Processing Aadhaar 1/1: 936832698361
+2025-08-10 18:32:05,355 - INFO - Initializing session...
+2025-08-10 18:32:05,697 - INFO - Session initialized successfully.
+2025-08-10 18:32:07,133 - INFO - Appended 1 records to Results
+2025-08-10 18:32:09,134 - INFO - Automation completed.
+2025-08-10 18:32:09,603 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:32:11,108 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:33:11,109 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:33:11,588 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:33:12,074 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:33:12,075 - INFO - Automation completed.
+2025-08-10 18:33:12,604 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:33:14,210 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:34:14,211 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:34:14,812 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:34:15,297 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:34:15,298 - INFO - Automation completed.
+2025-08-10 18:34:15,761 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:34:17,354 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:35:17,354 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:35:17,853 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:35:18,315 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:35:18,316 - INFO - Automation completed.
+2025-08-10 18:35:19,056 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:35:20,563 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:36:20,564 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:36:21,246 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:36:21,906 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:36:21,907 - INFO - Automation completed.
+2025-08-10 18:36:22,488 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:36:24,727 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:37:24,729 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:37:25,259 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:37:25,760 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:37:25,761 - INFO - Automation completed.
+2025-08-10 18:37:26,246 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:37:27,776 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:38:27,777 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:38:28,386 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:38:28,854 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:38:28,854 - INFO - Automation completed.
+2025-08-10 18:38:29,320 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:38:30,937 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:39:30,938 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:39:31,460 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:39:32,233 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:39:32,235 - INFO - Automation completed.
+2025-08-10 18:39:32,921 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:39:34,544 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:40:34,545 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:40:35,043 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:40:35,525 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:40:35,525 - INFO - Automation completed.
+2025-08-10 18:40:35,993 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:40:37,538 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:41:37,538 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:41:38,018 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:41:38,502 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:41:38,502 - INFO - Automation completed.
+2025-08-10 18:41:39,055 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:41:40,678 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:51:51,273 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:51:51,288 - INFO - Google Sheets service initialized
+2025-08-10 18:51:51,289 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:51:55,643 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:51:56,157 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:51:56,157 - INFO - Automation completed.
+2025-08-10 18:51:56,662 - INFO - Read 2 valid Aadhaar numbers from Sheet1
+2025-08-10 18:51:58,785 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:52:58,786 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:52:59,289 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:52:59,789 - INFO - Found 1 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:52:59,789 - INFO - Processing Aadhaar 1/1: 936832698361
+2025-08-10 18:52:59,790 - INFO - Initializing session...
+2025-08-10 18:53:00,245 - INFO - Session initialized successfully.
+2025-08-10 18:53:01,609 - INFO - Appended 1 records to Results
+2025-08-10 18:53:03,610 - INFO - Automation completed.
+2025-08-10 18:53:04,109 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:53:05,577 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:54:05,578 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:54:06,088 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:54:06,582 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:54:06,583 - INFO - Automation completed.
+2025-08-10 18:54:07,114 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 18:54:08,739 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:55:08,739 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:55:09,363 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:55:09,827 - INFO - Found 1 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:55:09,827 - INFO - Processing Aadhaar 1/1: 819134762899
+2025-08-10 18:55:10,100 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 18:55:10,101 - INFO - Initializing session...
+2025-08-10 18:55:10,194 - INFO - Session initialized successfully.
+2025-08-10 18:55:10,444 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 18:55:10,445 - INFO - Initializing session...
+2025-08-10 18:55:10,536 - INFO - Session initialized successfully.
+2025-08-10 18:55:10,748 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 18:55:11,744 - INFO - Appended 1 records to Results
+2025-08-10 18:55:13,745 - INFO - Automation completed.
+2025-08-10 18:55:14,211 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:55:15,666 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:56:15,667 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:56:16,155 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:56:16,618 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:56:16,619 - INFO - Automation completed.
+2025-08-10 18:56:17,405 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:56:19,867 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:57:19,870 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:57:20,640 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:57:21,131 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:57:21,131 - INFO - Automation completed.
+2025-08-10 18:57:21,617 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:57:23,276 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:58:23,277 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:58:24,224 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:58:24,856 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:58:24,856 - INFO - Automation completed.
+2025-08-10 18:58:25,391 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:58:27,988 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 18:59:17,283 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 18:59:17,326 - INFO - Google Sheets service initialized
+2025-08-10 18:59:17,328 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 18:59:21,036 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:59:21,513 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 18:59:21,514 - INFO - Automation completed.
+2025-08-10 18:59:21,981 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 18:59:24,060 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:00:21,594 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 19:00:21,599 - INFO - Google Sheets service initialized
+2025-08-10 19:00:21,599 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:00:23,949 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:00:24,417 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:00:24,418 - INFO - Automation completed.
+2025-08-10 19:00:24,909 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:00:26,407 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:01:26,408 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:01:27,494 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:01:28,228 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:01:28,228 - INFO - Automation completed.
+2025-08-10 19:01:28,702 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:01:30,293 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:02:30,294 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:02:30,950 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:02:31,462 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:02:31,463 - INFO - Automation completed.
+2025-08-10 19:02:31,970 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:02:33,622 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:04:24,967 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 19:04:24,990 - INFO - Google Sheets service initialized
+2025-08-10 19:04:24,991 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:04:31,376 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:04:31,845 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:04:31,845 - INFO - Automation completed.
+2025-08-10 19:04:32,342 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:04:34,650 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:06:00,510 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 19:06:00,517 - INFO - Google Sheets service initialized
+2025-08-10 19:06:00,518 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:06:02,935 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:06:03,418 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:06:03,418 - INFO - Automation completed.
+2025-08-10 19:06:03,896 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:06:05,368 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:07:05,369 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:07:06,035 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:07:06,669 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:07:06,670 - INFO - Automation completed.
+2025-08-10 19:07:07,314 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:07:09,785 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:08:09,787 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:08:10,321 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:08:10,805 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:08:10,805 - INFO - Automation completed.
+2025-08-10 19:08:11,301 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:08:12,831 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:09:12,832 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:09:13,350 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:09:14,096 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:09:14,097 - INFO - Automation completed.
+2025-08-10 19:09:14,569 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:09:16,127 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:10:16,128 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 19:10:16,984 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:10:17,907 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 19:10:17,909 - INFO - Automation completed.
+2025-08-10 19:10:18,726 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 19:10:20,728 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 19:11:27,983 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 19:11:27,988 - INFO - Google Sheets service initialized
+2025-08-10 19:11:32,459 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:11:33,161 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-10 19:11:34,503 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 19:11:35,585 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-10 19:11:35,590 - INFO - Initializing session...
+2025-08-10 19:11:35,986 - INFO - Session initialized successfully.
+2025-08-10 19:11:36,257 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 19:11:36,257 - INFO - Initializing session...
+2025-08-10 19:11:36,375 - INFO - Session initialized successfully.
+2025-08-10 19:11:36,598 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 19:11:36,599 - INFO - Initializing session...
+2025-08-10 19:11:36,699 - INFO - Session initialized successfully.
+2025-08-10 19:11:36,931 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 19:11:43,095 - INFO - Appended 1 records to Results
+2025-08-10 19:12:04,846 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 19:12:04,850 - INFO - Google Sheets service initialized
+2025-08-10 19:12:07,045 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-10 21:41:37,375 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 21:41:37,410 - INFO - Google Sheets service initialized
+2025-08-10 21:41:41,171 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 21:41:53,149 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 21:41:53,157 - INFO - Google Sheets service initialized
+2025-08-10 21:41:53,157 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 21:41:56,390 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 21:41:56,391 - WARNING - No valid Aadhaar numbers found in the sheet
+2025-08-10 21:41:57,051 - INFO - Read 0 valid Aadhaar numbers from Sheet1
+2025-08-10 21:41:59,367 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 21:59:19,079 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-10 21:59:19,088 - INFO - Google Sheets service initialized
+2025-08-10 21:59:19,088 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 21:59:22,587 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 21:59:23,128 - INFO - Found 3 Aadhaar numbers to process (not already in Results)
+2025-08-10 21:59:23,128 - INFO - Processing Aadhaar 1/3: 819134762899
+2025-08-10 21:59:23,129 - INFO - Initializing session...
+2025-08-10 21:59:23,558 - INFO - Session initialized successfully.
+2025-08-10 21:59:23,785 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 21:59:23,786 - INFO - Initializing session...
+2025-08-10 21:59:23,911 - INFO - Session initialized successfully.
+2025-08-10 21:59:24,142 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 21:59:24,146 - INFO - Initializing session...
+2025-08-10 21:59:24,244 - INFO - Session initialized successfully.
+2025-08-10 21:59:24,458 - ERROR - HTTP Error 500 for 819134762899
+2025-08-10 21:59:25,804 - INFO - Appended 1 records to Results
+2025-08-10 21:59:27,805 - INFO - Processing Aadhaar 2/3: 584632587955
+2025-08-10 21:59:28,310 - ERROR - HTTP Error 500 for 584632587955
+2025-08-10 21:59:28,311 - INFO - Initializing session...
+2025-08-10 21:59:28,396 - INFO - Session initialized successfully.
+2025-08-10 21:59:28,612 - ERROR - HTTP Error 500 for 584632587955
+2025-08-10 21:59:28,613 - INFO - Initializing session...
+2025-08-10 21:59:28,694 - INFO - Session initialized successfully.
+2025-08-10 21:59:28,919 - ERROR - HTTP Error 500 for 584632587955
+2025-08-10 21:59:30,493 - INFO - Appended 1 records to Results
+2025-08-10 21:59:32,494 - INFO - Processing Aadhaar 3/3: 269789655997
+2025-08-10 21:59:32,719 - ERROR - HTTP Error 500 for 269789655997
+2025-08-10 21:59:32,720 - INFO - Initializing session...
+2025-08-10 21:59:32,812 - INFO - Session initialized successfully.
+2025-08-10 21:59:33,070 - ERROR - HTTP Error 500 for 269789655997
+2025-08-10 21:59:33,071 - INFO - Initializing session...
+2025-08-10 21:59:33,199 - INFO - Session initialized successfully.
+2025-08-10 21:59:33,434 - ERROR - HTTP Error 500 for 269789655997
+2025-08-10 21:59:34,559 - INFO - Appended 1 records to Results
+2025-08-10 21:59:36,560 - INFO - Automation completed.
+2025-08-10 21:59:37,250 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 21:59:38,882 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:00:38,883 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:00:39,493 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:00:40,014 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:00:40,014 - INFO - Automation completed.
+2025-08-10 22:00:40,519 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:00:42,157 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:01:42,158 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:01:42,699 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:01:43,199 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:01:43,199 - INFO - Automation completed.
+2025-08-10 22:01:43,685 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:01:45,214 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:02:45,214 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:02:45,762 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:02:46,249 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:02:46,250 - INFO - Automation completed.
+2025-08-10 22:02:46,725 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:02:48,320 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:03:48,320 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:03:48,850 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:03:49,359 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:03:49,360 - INFO - Automation completed.
+2025-08-10 22:03:49,857 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:03:51,382 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:04:51,383 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:04:52,020 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:04:52,511 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:04:52,512 - INFO - Automation completed.
+2025-08-10 22:04:53,048 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:04:54,601 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:05:54,601 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:05:55,205 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:05:55,707 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:05:55,707 - INFO - Automation completed.
+2025-08-10 22:05:56,181 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:05:57,677 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:06:57,678 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:06:58,427 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:06:58,943 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:06:58,943 - INFO - Automation completed.
+2025-08-10 22:06:59,444 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:07:00,999 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-10 22:08:01,000 - INFO - Starting Jan Soochna Portal automation
+2025-08-10 22:08:01,536 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:08:02,010 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-10 22:08:02,011 - INFO - Automation completed.
+2025-08-10 22:08:02,518 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-10 22:08:04,048 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-14 15:46:35,520 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 15:46:35,561 - INFO - Google Sheets service initialized
+2025-08-14 15:46:39,262 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-14 15:46:39,942 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-14 15:46:40,728 - INFO - Read 1 valid Aadhaar numbers from Sheet1
+2025-08-14 15:46:41,367 - INFO - Found 1 new Aadhaar numbers to process
+2025-08-14 15:46:41,380 - INFO - Initializing session...
+2025-08-14 15:46:41,877 - INFO - Session initialized successfully.
+2025-08-14 15:46:42,287 - ERROR - HTTP Error 500 for 966861331096
+2025-08-14 15:46:42,288 - INFO - Initializing session...
+2025-08-14 15:46:42,402 - INFO - Session initialized successfully.
+2025-08-14 15:46:42,675 - ERROR - HTTP Error 500 for 966861331096
+2025-08-14 15:46:42,676 - INFO - Initializing session...
+2025-08-14 15:46:42,808 - INFO - Session initialized successfully.
+2025-08-14 15:46:43,112 - ERROR - HTTP Error 500 for 966861331096
+2025-08-14 15:46:48,121 - INFO - Appended 4 records to Results
+2025-08-14 18:51:38,181 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 18:51:38,206 - INFO - Google Sheets service initialized
+2025-08-14 18:51:41,220 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:51:41,878 - INFO - Found 2 new Aadhaar numbers to process
+2025-08-14 18:51:42,563 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:51:43,218 - INFO - Found 2 new Aadhaar numbers to process
+2025-08-14 18:51:43,222 - INFO - Initializing session...
+2025-08-14 18:51:43,500 - INFO - Session initialized successfully.
+2025-08-14 18:51:43,726 - ERROR - HTTP Error 500 for 283850849457
+2025-08-14 18:51:43,726 - INFO - Initializing session...
+2025-08-14 18:51:43,782 - INFO - Session initialized successfully.
+2025-08-14 18:51:44,101 - ERROR - HTTP Error 500 for 283850849457
+2025-08-14 18:51:44,103 - INFO - Initializing session...
+2025-08-14 18:51:44,224 - INFO - Session initialized successfully.
+2025-08-14 18:51:44,414 - ERROR - HTTP Error 500 for 283850849457
+2025-08-14 18:51:52,946 - INFO - Appended 9 records to Results
+2025-08-14 18:53:45,307 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 18:53:45,313 - INFO - Google Sheets service initialized
+2025-08-14 18:53:45,313 - INFO - Starting Jan Soochna Portal automation
+2025-08-14 18:53:47,737 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:53:48,353 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-14 18:53:48,353 - INFO - Automation completed.
+2025-08-14 18:53:48,982 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:53:51,009 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-14 18:54:51,009 - INFO - Starting Jan Soochna Portal automation
+2025-08-14 18:54:51,863 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:54:52,401 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-14 18:54:52,402 - INFO - Automation completed.
+2025-08-14 18:54:52,964 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:54:54,711 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-14 18:55:54,712 - INFO - Starting Jan Soochna Portal automation
+2025-08-14 18:55:55,305 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:55:55,838 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-14 18:55:55,844 - INFO - Automation completed.
+2025-08-14 18:55:56,388 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:55:58,181 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-14 18:56:10,853 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 18:56:10,857 - INFO - Google Sheets service initialized
+2025-08-14 18:56:13,249 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:57:16,433 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 18:57:16,437 - INFO - Google Sheets service initialized
+2025-08-14 18:57:18,886 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:57:23,945 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-14 18:57:23,949 - INFO - Google Sheets service initialized
+2025-08-14 18:57:23,949 - INFO - Starting Jan Soochna Portal automation
+2025-08-14 18:57:26,246 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:57:26,899 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-14 18:57:26,899 - INFO - Automation completed.
+2025-08-14 18:57:27,515 - INFO - Read 3 valid Aadhaar numbers from Sheet1
+2025-08-14 18:57:29,640 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-15 14:38:55,804 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 14:38:55,828 - INFO - Google Sheets service initialized
+2025-08-15 14:38:55,828 - INFO - Starting Jan Soochna Portal automation
+2025-08-15 14:38:58,212 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:38:58,656 - INFO - Found 1 Aadhaar numbers to process (not already in Results)
+2025-08-15 14:38:58,656 - INFO - Processing Aadhaar 1/1: 572313386946
+2025-08-15 14:38:58,657 - INFO - Initializing session...
+2025-08-15 14:38:58,854 - INFO - Session initialized successfully.
+2025-08-15 14:38:59,187 - ERROR - HTTP Error 500 for 572313386946
+2025-08-15 14:38:59,190 - INFO - Initializing session...
+2025-08-15 14:38:59,281 - INFO - Session initialized successfully.
+2025-08-15 14:38:59,565 - ERROR - HTTP Error 500 for 572313386946
+2025-08-15 14:38:59,566 - INFO - Initializing session...
+2025-08-15 14:38:59,671 - INFO - Session initialized successfully.
+2025-08-15 14:39:00,014 - ERROR - HTTP Error 500 for 572313386946
+2025-08-15 14:39:01,104 - INFO - Appended 1 records to Results
+2025-08-15 14:39:03,105 - INFO - Automation completed.
+2025-08-15 14:39:03,657 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:39:05,302 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-15 14:41:56,872 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 14:41:56,877 - INFO - Google Sheets service initialized
+2025-08-15 14:41:59,126 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:57:51,150 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 14:57:51,157 - INFO - Google Sheets service initialized
+2025-08-15 14:57:51,158 - INFO - Starting Jan Soochna Portal automation
+2025-08-15 14:57:53,616 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:57:54,110 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-15 14:57:54,110 - INFO - Automation completed.
+2025-08-15 14:57:54,573 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:57:56,230 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-15 14:59:56,231 - INFO - Starting Jan Soochna Portal automation
+2025-08-15 14:59:56,739 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:59:57,207 - INFO - Found 0 Aadhaar numbers to process (not already in Results)
+2025-08-15 14:59:57,207 - INFO - Automation completed.
+2025-08-15 14:59:57,657 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 14:59:59,080 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1 (and old rows cleared).
+2025-08-15 15:06:18,054 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:06:18,064 - INFO - Google Sheets service initialized
+2025-08-15 15:06:18,064 - INFO - Starting Jan Soochna Portal automation
+2025-08-15 15:06:21,799 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:06:22,338 - INFO - Found 0 Aadhaar numbers to process
+2025-08-15 15:06:22,338 - INFO - Automation completed.
+2025-08-15 15:06:22,841 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:06:24,652 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1
+2025-08-15 15:07:24,653 - INFO - Starting Jan Soochna Portal automation
+2025-08-15 15:07:25,178 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:07:25,639 - INFO - Found 0 Aadhaar numbers to process
+2025-08-15 15:07:25,639 - INFO - Automation completed.
+2025-08-15 15:07:26,166 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:07:27,823 - INFO - Results synced: removed rows for Aadhaar numbers not in Sheet1
+2025-08-15 15:07:31,226 - INFO - Automation stopped by user
+2025-08-15 15:11:19,751 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:11:19,758 - INFO - Google Sheets service initialized
+2025-08-15 15:11:22,527 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:11:23,675 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:11:25,309 - INFO - Results synced with input sheet
+2025-08-15 15:20:51,662 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:20:51,670 - INFO - Google Sheets service initialized
+2025-08-15 15:20:54,540 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:20:55,496 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:20:57,075 - INFO - Results synced with input sheet
+2025-08-15 15:27:35,404 - INFO - Response for 966861331096: Status=200, Length=1048
+2025-08-15 15:27:35,430 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:27:35,441 - INFO - Google Sheets service initialized
+2025-08-15 15:27:40,331 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:32:06,001 - INFO - TESTING single Aadhaar first...
+2025-08-15 15:32:06,002 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-15 15:32:06,002 - INFO - Step 1: Getting form page for 966861331096
+2025-08-15 15:32:06,375 - INFO - Step 2: Extracting CSRF token for 966861331096
+2025-08-15 15:32:06,375 - INFO - CSRF token extracted for 966861331096: W0nXx8EdMsst58OuSZp0...
+2025-08-15 15:32:06,376 - INFO - Step 3: Preparing form data for 966861331096
+2025-08-15 15:32:06,376 - INFO - Step 4: Submitting form for 966861331096
+2025-08-15 15:32:06,664 - INFO - Response for 966861331096: Status=200, Length=1048
+2025-08-15 15:32:06,664 - INFO - Response preview: "{\"Labour\":[{\"व्यक्ति / लाभार्थी का नाम / Beneficiary Name\":\"Kishan Nath\",\"व्यक्ति / लाभार्थी...
+2025-08-15 15:32:06,665 - INFO - JSON keys for 966861331096: ['Labour']
+2025-08-15 15:32:06,665 - INFO - SUCCESS: Found Labour data for 966861331096
+2025-08-15 15:32:06,665 - INFO - SUCCESS: Name=Kishan Nath, Aadhaar=966861331096
+2025-08-15 15:32:06,666 - INFO - TEST RESULT: Status=Success
+2025-08-15 15:32:06,666 - INFO - TEST SUCCESS: Name=Kishan Nath
+2025-08-15 15:32:06,667 - INFO - Single test passed - starting full automation
+2025-08-15 15:32:06,672 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:32:06,677 - INFO - Google Sheets service initialized
+2025-08-15 15:32:06,677 - INFO - STARTING Jan Soochna automation
+2025-08-15 15:32:09,561 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:32:10,024 - INFO - SUMMARY: Total=4, Already done=4, To process=0
+2025-08-15 15:32:10,025 - INFO - ALL Aadhaar numbers already processed
+2025-08-15 15:32:10,025 - INFO - AUTOMATION COMPLETED: Processed 0 Aadhaar numbers
+2025-08-15 15:32:51,369 - INFO - TESTING single Aadhaar first...
+2025-08-15 15:32:51,369 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-15 15:32:51,370 - INFO - Step 1: Getting form page for 966861331096
+2025-08-15 15:32:51,813 - INFO - Step 2: Extracting CSRF token for 966861331096
+2025-08-15 15:32:51,814 - INFO - CSRF token extracted for 966861331096: caqtdLFgIOe74E719tdQ...
+2025-08-15 15:32:51,815 - INFO - Step 3: Preparing form data for 966861331096
+2025-08-15 15:32:51,815 - INFO - Step 4: Submitting form for 966861331096
+2025-08-15 15:32:52,094 - INFO - Response for 966861331096: Status=200, Length=1048
+2025-08-15 15:32:52,095 - INFO - Response preview: "{\"Labour\":[{\"व्यक्ति / लाभार्थी का नाम / Beneficiary Name\":\"Kishan Nath\",\"व्यक्ति / लाभार्थी...
+2025-08-15 15:32:52,096 - INFO - JSON keys for 966861331096: ['Labour']
+2025-08-15 15:32:52,096 - INFO - SUCCESS: Found Labour data for 966861331096
+2025-08-15 15:32:52,096 - INFO - SUCCESS: Name=Kishan Nath, Aadhaar=966861331096
+2025-08-15 15:32:52,097 - INFO - TEST RESULT: Status=Success
+2025-08-15 15:32:52,097 - INFO - TEST SUCCESS: Name=Kishan Nath
+2025-08-15 15:32:52,098 - INFO - Single test passed - starting full automation
+2025-08-15 15:32:52,105 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:32:52,115 - INFO - Google Sheets service initialized
+2025-08-15 15:32:52,115 - INFO - STARTING Jan Soochna automation
+2025-08-15 15:32:55,503 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:32:56,094 - INFO - SUMMARY: Total=4, Already done=4, To process=0
+2025-08-15 15:32:56,094 - INFO - ALL Aadhaar numbers already processed
+2025-08-15 15:32:56,095 - INFO - AUTOMATION COMPLETED: Processed 0 Aadhaar numbers
+2025-08-15 15:36:36,800 - INFO - TESTING single Aadhaar first...
+2025-08-15 15:36:36,800 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-15 15:36:36,801 - INFO - Step 1: Getting form page for 966861331096
+2025-08-15 15:36:37,038 - INFO - Step 2: Extracting CSRF token for 966861331096
+2025-08-15 15:36:37,039 - INFO - CSRF token extracted for 966861331096: saesWTFFogqmJiWcPC0V...
+2025-08-15 15:36:37,039 - INFO - Step 3: Preparing form data for 966861331096
+2025-08-15 15:36:37,040 - INFO - Step 4: Submitting form for 966861331096
+2025-08-15 15:36:37,546 - INFO - Response for 966861331096: Status=200, Length=1048
+2025-08-15 15:36:37,547 - INFO - Response preview: "{\"Labour\":[{\"व्यक्ति / लाभार्थी का नाम / Beneficiary Name\":\"Kishan Nath\",\"व्यक्ति / लाभार्थी...
+2025-08-15 15:36:37,547 - INFO - JSON keys for 966861331096: ['Labour']
+2025-08-15 15:36:37,547 - INFO - SUCCESS: Found Labour data for 966861331096
+2025-08-15 15:36:37,547 - INFO - SUCCESS: Name=Kishan Nath, Aadhaar=966861331096
+2025-08-15 15:36:37,548 - INFO - TEST RESULT: Status=Success
+2025-08-15 15:36:37,548 - INFO - TEST SUCCESS: Name=Kishan Nath
+2025-08-15 15:36:37,548 - INFO - Single test passed - starting full automation
+2025-08-15 15:36:37,554 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:36:37,558 - INFO - Google Sheets service initialized
+2025-08-15 15:36:37,558 - INFO - STARTING Jan Soochna automation
+2025-08-15 15:36:39,864 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:36:40,344 - INFO - SUMMARY: Total=4, Already done=0, To process=4
+2025-08-15 15:36:40,345 - INFO - PROCESSING 1/4: 966861331096
+2025-08-15 15:36:40,345 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-15 15:36:40,345 - INFO - Step 1: Getting form page for 966861331096
+2025-08-15 15:36:40,521 - INFO - Step 2: Extracting CSRF token for 966861331096
+2025-08-15 15:36:40,521 - INFO - CSRF token extracted for 966861331096: G4JvvxZDt3vxuiGcYZfX...
+2025-08-15 15:36:40,522 - INFO - Step 3: Preparing form data for 966861331096
+2025-08-15 15:36:40,522 - INFO - Step 4: Submitting form for 966861331096
+2025-08-15 15:36:40,822 - INFO - Response for 966861331096: Status=200, Length=1048
+2025-08-15 15:36:40,822 - INFO - Response preview: "{\"Labour\":[{\"व्यक्ति / लाभार्थी का नाम / Beneficiary Name\":\"Kishan Nath\",\"व्यक्ति / लाभार्थी...
+2025-08-15 15:36:40,823 - INFO - JSON keys for 966861331096: ['Labour']
+2025-08-15 15:36:40,823 - INFO - SUCCESS: Found Labour data for 966861331096
+2025-08-15 15:36:40,823 - INFO - SUCCESS: Name=Kishan Nath, Aadhaar=966861331096
+2025-08-15 15:36:42,382 - INFO - Created header in Results
+2025-08-15 15:36:42,870 - INFO - WRITTEN: Result for 966861331096 to Results
+2025-08-15 15:36:42,870 - INFO - SUCCESS: Kishan Nath written to sheet
+2025-08-15 15:36:42,870 - INFO - PROGRESS: 1/4 done, 1 success, 0 failed
+2025-08-15 15:36:42,874 - INFO - WAITING 8.2 seconds...
+2025-08-15 15:36:51,051 - INFO - PROCESSING 2/4: 283850849457
+2025-08-15 15:36:51,052 - INFO - PROCESSING Aadhaar: 283850849457
+2025-08-15 15:36:51,052 - INFO - Step 1: Getting form page for 283850849457
+2025-08-15 15:36:51,246 - INFO - Step 2: Extracting CSRF token for 283850849457
+2025-08-15 15:36:51,247 - INFO - CSRF token extracted for 283850849457: jSUVFihrmr1zJTXY7pBS...
+2025-08-15 15:36:51,247 - INFO - Step 3: Preparing form data for 283850849457
+2025-08-15 15:36:51,247 - INFO - Step 4: Submitting form for 283850849457
+2025-08-15 15:36:51,493 - INFO - Response for 283850849457: Status=500, Length=31114
+2025-08-15 15:36:51,493 - INFO - Response preview: 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Comp...
+2025-08-15 15:36:51,493 - ERROR - ERROR: HTTP 500 for 283850849457
+2025-08-15 15:36:52,916 - INFO - WRITTEN: Result for 283850849457 to Results
+2025-08-15 15:36:52,916 - INFO - FAILED: HTTP Error: 500 written to sheet
+2025-08-15 15:36:52,917 - INFO - PROGRESS: 2/4 done, 1 success, 1 failed
+2025-08-15 15:36:52,917 - INFO - WAITING 8.7 seconds...
+2025-08-15 15:37:01,576 - INFO - PROCESSING 3/4: 809184779531
+2025-08-15 15:37:01,577 - INFO - PROCESSING Aadhaar: 809184779531
+2025-08-15 15:37:01,577 - INFO - Step 1: Getting form page for 809184779531
+2025-08-15 15:37:01,716 - INFO - Step 2: Extracting CSRF token for 809184779531
+2025-08-15 15:37:01,717 - INFO - CSRF token extracted for 809184779531: _a42vnGTErWfeovSzqln...
+2025-08-15 15:37:01,717 - INFO - Step 3: Preparing form data for 809184779531
+2025-08-15 15:37:01,717 - INFO - Step 4: Submitting form for 809184779531
+2025-08-15 15:37:02,353 - INFO - Response for 809184779531: Status=200, Length=1043
+2025-08-15 15:37:02,353 - INFO - Response preview: "{\"Labour\":[{\"व्यक्ति / लाभार्थी का नाम / Beneficiary Name\":\"Jameela\",\"व्यक्ति / लाभार्थी के ...
+2025-08-15 15:37:02,353 - INFO - JSON keys for 809184779531: ['Labour']
+2025-08-15 15:37:02,354 - INFO - SUCCESS: Found Labour data for 809184779531
+2025-08-15 15:37:02,354 - INFO - SUCCESS: Name=Jameela, Aadhaar=809184779531
+2025-08-15 15:37:03,832 - INFO - WRITTEN: Result for 809184779531 to Results
+2025-08-15 15:37:03,833 - INFO - SUCCESS: Jameela written to sheet
+2025-08-15 15:37:03,833 - INFO - PROGRESS: 3/4 done, 2 success, 1 failed
+2025-08-15 15:37:03,833 - INFO - WAITING 6.2 seconds...
+2025-08-15 15:37:10,025 - INFO - PROCESSING 4/4: 572313386946
+2025-08-15 15:37:10,026 - INFO - PROCESSING Aadhaar: 572313386946
+2025-08-15 15:37:10,026 - INFO - Step 1: Getting form page for 572313386946
+2025-08-15 15:37:10,234 - INFO - Step 2: Extracting CSRF token for 572313386946
+2025-08-15 15:37:10,235 - INFO - CSRF token extracted for 572313386946: R2TJJz9zSOswwQbp96A8...
+2025-08-15 15:37:10,235 - INFO - Step 3: Preparing form data for 572313386946
+2025-08-15 15:37:10,235 - INFO - Step 4: Submitting form for 572313386946
+2025-08-15 15:37:10,438 - INFO - Response for 572313386946: Status=500, Length=31114
+2025-08-15 15:37:10,439 - INFO - Response preview: 
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Comp...
+2025-08-15 15:37:10,439 - ERROR - ERROR: HTTP 500 for 572313386946
+2025-08-15 15:37:11,906 - INFO - WRITTEN: Result for 572313386946 to Results
+2025-08-15 15:37:11,907 - INFO - FAILED: HTTP Error: 500 written to sheet
+2025-08-15 15:37:11,907 - INFO - PROGRESS: 4/4 done, 2 success, 2 failed
+2025-08-15 15:37:11,907 - INFO - COMPLETED: 2 successful, 2 failed out of 4 total
+2025-08-15 15:37:11,907 - INFO - AUTOMATION COMPLETED: Processed 4 Aadhaar numbers
+2025-08-15 15:37:11,908 - INFO - FINAL SUMMARY: 2/4 successful
+2025-08-15 15:37:11,908 - INFO - SUCCESS: 966861331096 -> Kishan Nath
+2025-08-15 15:37:11,908 - INFO - FAILED: 283850849457 -> HTTP Error: 500
+2025-08-15 15:37:11,908 - INFO - SUCCESS: 809184779531 -> Jameela
+2025-08-15 15:37:11,908 - INFO - FAILED: 572313386946 -> HTTP Error: 500
+2025-08-15 15:48:53,601 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 15:48:53,607 - INFO - Google Sheets service initialized
+2025-08-15 15:49:09,967 - INFO - STARTING Jan Soochna automation
+2025-08-15 15:49:12,114 - INFO - Read 4 valid Aadhaar numbers from Sheet1
+2025-08-15 15:49:12,593 - INFO - SUMMARY: Total=4, Already done=4, To process=0
+2025-08-15 15:49:12,594 - INFO - ALL Aadhaar numbers already processed
+2025-08-15 16:16:42,065 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-15 16:16:42,069 - INFO - Google Sheets service initialized
+2025-08-15 16:16:43,371 - INFO - STARTING Jan Soochna automation
+2025-08-15 16:16:45,531 - INFO - Read 5 valid Aadhaar numbers from Sheet1
+2025-08-15 16:16:46,000 - INFO - SUMMARY: Total=5, Already done=4, To process=1
+2025-08-15 16:16:46,000 - INFO - PROCESSING 1/1: 957209349169
+2025-08-15 16:16:46,000 - INFO - PROCESSING Aadhaar: 957209349169
+2025-08-15 16:16:47,941 - INFO - WRITTEN: Result for 957209349169
+2025-08-15 16:16:47,941 - INFO - FAILED: HTTP Error: 500
+2025-08-15 16:16:47,942 - INFO - COMPLETED: 0 successful, 1 failed
+2025-08-18 12:48:54,723 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-18 12:48:54,741 - INFO - Google Sheets service initialized
+2025-08-18 12:49:08,891 - INFO - Cleared Results sheet
+2025-08-18 12:49:13,191 - INFO - STARTING Jan Soochna automation
+2025-08-18 12:49:13,860 - INFO - Read 5 valid Aadhaar numbers from Sheet1
+2025-08-18 12:49:14,508 - INFO - SUMMARY: Total=5, Already done=0, To process=5
+2025-08-18 12:49:14,509 - INFO - PROCESSING 1/5: 966861331096
+2025-08-18 12:49:14,509 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-18 12:49:15,675 - INFO - SUCCESS: Kishan Nath (Aadhaar: 966861331096)
+2025-08-18 12:49:17,437 - INFO - Created header in Results
+2025-08-18 12:49:17,951 - INFO - WRITTEN: Result for 966861331096
+2025-08-18 12:49:17,952 - INFO - SUCCESS: Kishan Nath
+2025-08-18 12:49:17,953 - INFO - WAITING 7.1 seconds...
+2025-08-18 12:49:25,086 - INFO - PROCESSING 2/5: 283850849457
+2025-08-18 12:49:25,087 - INFO - PROCESSING Aadhaar: 283850849457
+2025-08-18 12:49:29,256 - INFO - WRITTEN: Result for 283850849457
+2025-08-18 12:49:29,257 - INFO - FAILED: HTTP Error: 500
+2025-08-18 12:49:29,258 - INFO - WAITING 6.3 seconds...
+2025-08-18 12:49:35,601 - INFO - PROCESSING 3/5: 809184779531
+2025-08-18 12:49:35,601 - INFO - PROCESSING Aadhaar: 809184779531
+2025-08-18 12:49:36,825 - INFO - SUCCESS: Jameela (Aadhaar: 809184779531)
+2025-08-18 12:49:38,437 - INFO - WRITTEN: Result for 809184779531
+2025-08-18 12:49:38,438 - INFO - SUCCESS: Jameela
+2025-08-18 12:49:38,438 - INFO - WAITING 8.6 seconds...
+2025-08-18 12:49:47,027 - INFO - PROCESSING 4/5: 572313386946
+2025-08-18 12:49:47,027 - INFO - PROCESSING Aadhaar: 572313386946
+2025-08-18 12:49:50,208 - INFO - WRITTEN: Result for 572313386946
+2025-08-18 12:49:50,209 - INFO - FAILED: HTTP Error: 500
+2025-08-18 12:49:50,209 - INFO - WAITING 6.4 seconds...
+2025-08-18 12:49:56,657 - INFO - PROCESSING 5/5: 957209349169
+2025-08-18 12:49:56,657 - INFO - PROCESSING Aadhaar: 957209349169
+2025-08-18 12:49:57,875 - INFO - SUCCESS: Hansa Chouhan (Aadhaar: 957209349169)
+2025-08-18 12:49:59,385 - INFO - WRITTEN: Result for 957209349169
+2025-08-18 12:49:59,385 - INFO - SUCCESS: Hansa Chouhan
+2025-08-18 12:49:59,386 - INFO - COMPLETED: 3 successful, 2 failed
+2025-08-18 15:09:30,867 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-18 15:09:30,873 - INFO - Google Sheets service initialized
+2025-08-18 15:09:47,048 - INFO - Cleared Results sheet
+2025-08-18 15:09:51,248 - INFO - STARTING Jan Soochna automation
+2025-08-18 15:09:51,874 - INFO - Read 5 valid Aadhaar numbers from Sheet1
+2025-08-18 15:09:52,380 - INFO - SUMMARY: Total=5, Already done=0, To process=5
+2025-08-18 15:09:52,381 - INFO - PROCESSING 1/5: 966861331096
+2025-08-18 15:09:52,381 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-18 15:09:53,364 - INFO - SUCCESS: Kishan Nath (Aadhaar: 966861331096)
+2025-08-18 15:09:54,919 - INFO - Created header in Results
+2025-08-18 15:09:55,462 - INFO - WRITTEN: Result for 966861331096
+2025-08-18 15:09:55,463 - INFO - SUCCESS: Kishan Nath
+2025-08-18 15:09:55,463 - INFO - WAITING 8.7 seconds...
+2025-08-18 15:10:04,193 - INFO - PROCESSING 2/5: 283850849457
+2025-08-18 15:10:04,193 - INFO - PROCESSING Aadhaar: 283850849457
+2025-08-18 15:10:06,456 - INFO - WRITTEN: Result for 283850849457
+2025-08-18 15:10:06,456 - INFO - FAILED: HTTP Error: 500
+2025-08-18 15:10:06,456 - INFO - WAITING 6.3 seconds...
+2025-08-18 15:10:12,784 - INFO - PROCESSING 3/5: 809184779531
+2025-08-18 15:10:12,784 - INFO - PROCESSING Aadhaar: 809184779531
+2025-08-18 15:10:13,742 - INFO - SUCCESS: Jameela (Aadhaar: 809184779531)
+2025-08-18 15:10:15,163 - INFO - WRITTEN: Result for 809184779531
+2025-08-18 15:10:15,164 - INFO - SUCCESS: Jameela
+2025-08-18 15:10:15,164 - INFO - WAITING 8.9 seconds...
+2025-08-18 15:10:24,047 - INFO - PROCESSING 4/5: 572313386946
+2025-08-18 15:10:24,047 - INFO - PROCESSING Aadhaar: 572313386946
+2025-08-18 15:10:25,362 - INFO - SUCCESS: Surendra Chouhan (Aadhaar: 572313386946)
+2025-08-18 15:10:26,833 - INFO - WRITTEN: Result for 572313386946
+2025-08-18 15:10:26,833 - INFO - SUCCESS: Surendra Chouhan
+2025-08-18 15:10:26,833 - INFO - WAITING 7.1 seconds...
+2025-08-18 15:10:33,983 - INFO - PROCESSING 5/5: 957209349169
+2025-08-18 15:10:33,983 - INFO - PROCESSING Aadhaar: 957209349169
+2025-08-18 15:10:34,904 - INFO - SUCCESS: Hansa Chouhan (Aadhaar: 957209349169)
+2025-08-18 15:10:36,389 - INFO - WRITTEN: Result for 957209349169
+2025-08-18 15:10:36,390 - INFO - SUCCESS: Hansa Chouhan
+2025-08-18 15:10:36,390 - INFO - COMPLETED: 4 successful, 1 failed
+2025-08-18 18:30:20,108 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-18 18:30:20,116 - INFO - Google Sheets service initialized
+2025-08-18 18:30:31,128 - INFO - Cleared Results sheet
+2025-08-18 18:30:34,329 - INFO - STARTING Jan Soochna automation
+2025-08-18 18:30:34,953 - INFO - Read 9 valid Aadhaar numbers from Sheet1
+2025-08-18 18:30:35,454 - INFO - SUMMARY: Total=9, Already done=0, To process=9
+2025-08-18 18:30:35,454 - INFO - PROCESSING 1/9: 966861331096
+2025-08-18 18:30:35,454 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-18 18:30:36,379 - INFO - SUCCESS: Kishan Nath (Aadhaar: 966861331096)
+2025-08-18 18:30:38,009 - INFO - Created header in Results
+2025-08-18 18:30:38,529 - INFO - WRITTEN: Result for 966861331096
+2025-08-18 18:30:38,529 - INFO - SUCCESS: Kishan Nath
+2025-08-18 18:30:38,531 - INFO - WAITING 8.2 seconds...
+2025-08-18 18:30:46,692 - INFO - PROCESSING 2/9: 283850849457
+2025-08-18 18:30:46,692 - INFO - PROCESSING Aadhaar: 283850849457
+2025-08-18 18:30:49,104 - INFO - WRITTEN: Result for 283850849457
+2025-08-18 18:30:49,105 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:30:49,105 - INFO - WAITING 7.3 seconds...
+2025-08-18 18:30:56,362 - INFO - PROCESSING 3/9: 809184779531
+2025-08-18 18:30:56,363 - INFO - PROCESSING Aadhaar: 809184779531
+2025-08-18 18:30:57,574 - INFO - SUCCESS: Jameela (Aadhaar: 809184779531)
+2025-08-18 18:30:59,027 - INFO - WRITTEN: Result for 809184779531
+2025-08-18 18:30:59,028 - INFO - SUCCESS: Jameela
+2025-08-18 18:30:59,028 - INFO - WAITING 8.1 seconds...
+2025-08-18 18:31:07,168 - INFO - PROCESSING 4/9: 572313386946
+2025-08-18 18:31:07,168 - INFO - PROCESSING Aadhaar: 572313386946
+2025-08-18 18:31:08,166 - INFO - SUCCESS: Surendra Chouhan (Aadhaar: 572313386946)
+2025-08-18 18:31:09,660 - INFO - WRITTEN: Result for 572313386946
+2025-08-18 18:31:09,660 - INFO - SUCCESS: Surendra Chouhan
+2025-08-18 18:31:09,662 - INFO - WAITING 6.4 seconds...
+2025-08-18 18:31:16,030 - INFO - PROCESSING 5/9: 957209349169
+2025-08-18 18:31:16,030 - INFO - PROCESSING Aadhaar: 957209349169
+2025-08-18 18:31:17,107 - INFO - SUCCESS: Hansa Chouhan (Aadhaar: 957209349169)
+2025-08-18 18:31:18,662 - INFO - WRITTEN: Result for 957209349169
+2025-08-18 18:31:18,663 - INFO - SUCCESS: Hansa Chouhan
+2025-08-18 18:31:18,663 - INFO - WAITING 8.8 seconds...
+2025-08-18 18:31:27,433 - INFO - PROCESSING 6/9: 781214029141
+2025-08-18 18:31:27,433 - INFO - PROCESSING Aadhaar: 781214029141
+2025-08-18 18:31:28,698 - INFO - SUCCESS: Narendra Chouhan (Aadhaar: 781214029141)
+2025-08-18 18:31:30,217 - INFO - WRITTEN: Result for 781214029141
+2025-08-18 18:31:30,217 - INFO - SUCCESS: Narendra Chouhan
+2025-08-18 18:31:30,217 - INFO - WAITING 7.5 seconds...
+2025-08-18 18:31:37,674 - INFO - PROCESSING 7/9: 269183850975
+2025-08-18 18:31:37,674 - INFO - PROCESSING Aadhaar: 269183850975
+2025-08-18 18:31:40,144 - INFO - WRITTEN: Result for 269183850975
+2025-08-18 18:31:40,145 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:31:40,145 - INFO - WAITING 6.4 seconds...
+2025-08-18 18:31:46,584 - INFO - PROCESSING 8/9: 269183850975
+2025-08-18 18:31:46,584 - INFO - PROCESSING Aadhaar: 269183850975
+2025-08-18 18:31:49,228 - INFO - WRITTEN: Result for 269183850975
+2025-08-18 18:31:49,228 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:31:49,229 - INFO - WAITING 8.0 seconds...
+2025-08-18 18:31:57,274 - INFO - PROCESSING 9/9: 961398714831
+2025-08-18 18:31:57,274 - INFO - PROCESSING Aadhaar: 961398714831
+2025-08-18 18:31:59,637 - INFO - WRITTEN: Result for 961398714831
+2025-08-18 18:31:59,638 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:31:59,638 - INFO - COMPLETED: 5 successful, 4 failed
+2025-08-18 18:33:35,043 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-18 18:33:35,051 - INFO - Google Sheets service initialized
+2025-08-18 18:33:38,057 - INFO - STARTING Jan Soochna automation
+2025-08-18 18:33:40,179 - INFO - Read 9 valid Aadhaar numbers from Sheet1
+2025-08-18 18:33:40,630 - INFO - SUMMARY: Total=9, Already done=8, To process=0
+2025-08-18 18:33:40,630 - INFO - ALL Aadhaar numbers already processed
+2025-08-18 18:33:51,084 - INFO - Cleared Results sheet
+2025-08-18 18:33:53,437 - INFO - STARTING Jan Soochna automation
+2025-08-18 18:33:54,198 - INFO - Read 9 valid Aadhaar numbers from Sheet1
+2025-08-18 18:33:54,976 - INFO - SUMMARY: Total=9, Already done=0, To process=9
+2025-08-18 18:33:54,976 - INFO - PROCESSING 1/9: 966861331096
+2025-08-18 18:33:54,977 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-18 18:33:55,902 - INFO - SUCCESS: Kishan Nath (Aadhaar: 966861331096)
+2025-08-18 18:33:58,126 - INFO - Created header in Results
+2025-08-18 18:33:58,918 - INFO - WRITTEN: Result for 966861331096
+2025-08-18 18:33:58,918 - INFO - SUCCESS: Kishan Nath
+2025-08-18 18:33:58,919 - INFO - WAITING 8.1 seconds...
+2025-08-18 18:34:07,069 - INFO - PROCESSING 2/9: 283850849457
+2025-08-18 18:34:07,069 - INFO - PROCESSING Aadhaar: 283850849457
+2025-08-18 18:34:10,795 - INFO - WRITTEN: Result for 283850849457
+2025-08-18 18:34:10,796 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:34:10,796 - INFO - WAITING 6.2 seconds...
+2025-08-18 18:34:16,980 - INFO - PROCESSING 3/9: 809184779531
+2025-08-18 18:34:16,980 - INFO - PROCESSING Aadhaar: 809184779531
+2025-08-18 18:34:17,865 - INFO - SUCCESS: Jameela (Aadhaar: 809184779531)
+2025-08-18 18:34:20,305 - INFO - WRITTEN: Result for 809184779531
+2025-08-18 18:34:20,306 - INFO - SUCCESS: Jameela
+2025-08-18 18:34:20,306 - INFO - WAITING 8.0 seconds...
+2025-08-18 18:34:28,268 - INFO - PROCESSING 4/9: 572313386946
+2025-08-18 18:34:28,268 - INFO - PROCESSING Aadhaar: 572313386946
+2025-08-18 18:34:29,332 - INFO - SUCCESS: Surendra Chouhan (Aadhaar: 572313386946)
+2025-08-18 18:34:31,756 - INFO - WRITTEN: Result for 572313386946
+2025-08-18 18:34:31,756 - INFO - SUCCESS: Surendra Chouhan
+2025-08-18 18:34:31,757 - INFO - WAITING 6.1 seconds...
+2025-08-18 18:34:37,843 - INFO - PROCESSING 5/9: 957209349169
+2025-08-18 18:34:37,843 - INFO - PROCESSING Aadhaar: 957209349169
+2025-08-18 18:34:38,748 - INFO - SUCCESS: Hansa Chouhan (Aadhaar: 957209349169)
+2025-08-18 18:34:41,342 - INFO - WRITTEN: Result for 957209349169
+2025-08-18 18:34:41,342 - INFO - SUCCESS: Hansa Chouhan
+2025-08-18 18:34:41,342 - INFO - WAITING 7.4 seconds...
+2025-08-18 18:34:48,768 - INFO - PROCESSING 6/9: 781214029141
+2025-08-18 18:34:48,768 - INFO - PROCESSING Aadhaar: 781214029141
+2025-08-18 18:34:49,594 - INFO - SUCCESS: Narendra Chouhan (Aadhaar: 781214029141)
+2025-08-18 18:34:52,028 - INFO - WRITTEN: Result for 781214029141
+2025-08-18 18:34:52,028 - INFO - SUCCESS: Narendra Chouhan
+2025-08-18 18:34:52,029 - INFO - WAITING 8.3 seconds...
+2025-08-18 18:35:00,294 - INFO - PROCESSING 7/9: 269183850975
+2025-08-18 18:35:00,294 - INFO - PROCESSING Aadhaar: 269183850975
+2025-08-18 18:35:03,527 - INFO - WRITTEN: Result for 269183850975
+2025-08-18 18:35:03,529 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:35:03,529 - INFO - WAITING 7.2 seconds...
+2025-08-18 18:35:10,740 - INFO - PROCESSING 8/9: 269183850975
+2025-08-18 18:35:10,740 - INFO - PROCESSING Aadhaar: 269183850975
+2025-08-18 18:35:13,868 - INFO - WRITTEN: Result for 269183850975
+2025-08-18 18:35:13,868 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:35:13,868 - INFO - WAITING 8.7 seconds...
+2025-08-18 18:35:22,604 - INFO - PROCESSING 9/9: 961398714831
+2025-08-18 18:35:22,604 - INFO - PROCESSING Aadhaar: 961398714831
+2025-08-18 18:35:25,561 - INFO - WRITTEN: Result for 961398714831
+2025-08-18 18:35:25,561 - INFO - FAILED: HTTP Error: 500
+2025-08-18 18:35:25,561 - INFO - COMPLETED: 5 successful, 4 failed
+2025-08-19 16:49:36,951 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-08-19 16:49:36,959 - INFO - Google Sheets service initialized
+2025-08-19 16:49:44,109 - INFO - Cleared Results sheet
+2025-08-19 16:49:51,363 - INFO - STARTING Jan Soochna automation
+2025-08-19 16:49:51,960 - INFO - Read 12 valid Aadhaar numbers from Sheet1
+2025-08-19 16:49:52,462 - INFO - SUMMARY: Total=12, Already done=0, To process=12
+2025-08-19 16:49:52,463 - INFO - PROCESSING 1/12: 966861331096
+2025-08-19 16:49:52,463 - INFO - PROCESSING Aadhaar: 966861331096
+2025-08-19 16:49:53,659 - INFO - SUCCESS: Kishan Nath (Aadhaar: 966861331096)
+2025-08-19 16:49:55,252 - INFO - Created header in Results
+2025-08-19 16:49:55,885 - INFO - WRITTEN: Result for 966861331096
+2025-08-19 16:49:55,885 - INFO - SUCCESS: Kishan Nath
+2025-08-19 16:49:55,886 - INFO - WAITING 8.7 seconds...
+2025-08-19 16:50:04,555 - INFO - PROCESSING 2/12: 283850849457
+2025-08-19 16:50:04,556 - INFO - PROCESSING Aadhaar: 283850849457
+2025-08-19 16:50:07,454 - INFO - WRITTEN: Result for 283850849457
+2025-08-19 16:50:07,455 - INFO - FAILED: HTTP Error: 500
+2025-08-19 16:50:07,455 - INFO - WAITING 7.9 seconds...
+2025-08-19 16:50:15,401 - INFO - PROCESSING 3/12: 809184779531
+2025-08-19 16:50:15,402 - INFO - PROCESSING Aadhaar: 809184779531
+2025-08-19 16:50:16,543 - INFO - SUCCESS: Jameela (Aadhaar: 809184779531)
+2025-08-19 16:50:17,978 - INFO - WRITTEN: Result for 809184779531
+2025-08-19 16:50:17,979 - INFO - SUCCESS: Jameela
+2025-08-19 16:50:17,979 - INFO - WAITING 8.0 seconds...
+2025-08-19 16:50:25,938 - INFO - PROCESSING 4/12: 572313386946
+2025-08-19 16:50:25,938 - INFO - PROCESSING Aadhaar: 572313386946
+2025-08-19 16:50:27,542 - INFO - SUCCESS: Surendra Chouhan (Aadhaar: 572313386946)
+2025-08-19 16:50:29,042 - INFO - WRITTEN: Result for 572313386946
+2025-08-19 16:50:29,042 - INFO - SUCCESS: Surendra Chouhan
+2025-08-19 16:50:29,043 - INFO - WAITING 8.4 seconds...
+2025-08-19 16:50:37,489 - INFO - PROCESSING 5/12: 957209349169
+2025-08-19 16:50:37,489 - INFO - PROCESSING Aadhaar: 957209349169
+2025-08-19 16:50:39,337 - INFO - SUCCESS: Hansa Chouhan (Aadhaar: 957209349169)
+2025-08-19 16:50:40,930 - INFO - WRITTEN: Result for 957209349169
+2025-08-19 16:50:40,930 - INFO - SUCCESS: Hansa Chouhan
+2025-08-19 16:50:40,931 - INFO - WAITING 7.8 seconds...
+2025-08-19 16:50:48,770 - INFO - PROCESSING 6/12: 781214029141
+2025-08-19 16:50:48,770 - INFO - PROCESSING Aadhaar: 781214029141
+2025-08-19 16:50:50,208 - INFO - SUCCESS: Narendra Chouhan (Aadhaar: 781214029141)
+2025-08-19 16:50:51,821 - INFO - WRITTEN: Result for 781214029141
+2025-08-19 16:50:51,821 - INFO - SUCCESS: Narendra Chouhan
+2025-08-19 16:50:51,822 - INFO - WAITING 6.3 seconds...
+2025-08-19 16:50:58,081 - INFO - PROCESSING 7/12: 269183850975
+2025-08-19 16:50:58,081 - INFO - PROCESSING Aadhaar: 269183850975
+2025-08-19 16:50:59,298 - INFO - SUCCESS: Bhagwan Singh (Aadhaar: 269183850975)
+2025-08-19 16:51:00,923 - INFO - WRITTEN: Result for 269183850975
+2025-08-19 16:51:00,923 - INFO - SUCCESS: Bhagwan Singh
+2025-08-19 16:51:00,924 - INFO - WAITING 7.6 seconds...
+2025-08-19 16:51:08,542 - INFO - PROCESSING 8/12: 269183850975
+2025-08-19 16:51:08,543 - INFO - PROCESSING Aadhaar: 269183850975
+2025-08-19 16:51:09,786 - INFO - SUCCESS: Bhagwan Singh (Aadhaar: 269183850975)
+2025-08-19 16:51:11,300 - INFO - WRITTEN: Result for 269183850975
+2025-08-19 16:51:11,301 - INFO - SUCCESS: Bhagwan Singh
+2025-08-19 16:51:11,301 - INFO - WAITING 8.7 seconds...
+2025-08-19 16:51:20,049 - INFO - PROCESSING 9/12: 961398714831
+2025-08-19 16:51:20,049 - INFO - PROCESSING Aadhaar: 961398714831
+2025-08-19 16:51:21,411 - INFO - SUCCESS: Narottam Singh (Aadhaar: 961398714831)
+2025-08-19 16:51:22,978 - INFO - WRITTEN: Result for 961398714831
+2025-08-19 16:51:22,979 - INFO - SUCCESS: Narottam Singh
+2025-08-19 16:51:22,980 - INFO - WAITING 6.9 seconds...
+2025-08-19 16:51:29,871 - INFO - PROCESSING 10/12: 707980001032
+2025-08-19 16:51:29,871 - INFO - PROCESSING Aadhaar: 707980001032
+2025-08-19 16:51:32,332 - INFO - WRITTEN: Result for 707980001032
+2025-08-19 16:51:32,333 - INFO - FAILED: HTTP Error: 500
+2025-08-19 16:51:32,333 - INFO - WAITING 7.1 seconds...
+2025-08-19 16:51:39,449 - INFO - PROCESSING 11/12: 503828706230
+2025-08-19 16:51:39,449 - INFO - PROCESSING Aadhaar: 503828706230
+2025-08-19 16:51:40,480 - INFO - SUCCESS: Harshit Sahu (Aadhaar: 503828706230)
+2025-08-19 16:51:42,047 - INFO - WRITTEN: Result for 503828706230
+2025-08-19 16:51:42,047 - INFO - SUCCESS: Harshit Sahu
+2025-08-19 16:51:42,048 - INFO - WAITING 8.6 seconds...
+2025-08-19 16:51:50,610 - INFO - PROCESSING 12/12: 454198866895
+2025-08-19 16:51:50,610 - INFO - PROCESSING Aadhaar: 454198866895
+2025-08-19 16:51:52,238 - INFO - SUCCESS: द्रोपती (Aadhaar: 454198866895)
+2025-08-19 16:51:53,804 - INFO - WRITTEN: Result for 454198866895
+2025-08-19 16:51:53,805 - INFO - SUCCESS: द्रोपती
+2025-08-19 16:51:53,805 - INFO - COMPLETED: 10 successful, 2 failed
